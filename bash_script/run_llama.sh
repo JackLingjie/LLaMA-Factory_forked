@@ -1,2 +1,3 @@
 llamafactory-cli train bash_script/qwen2vl_lora_sft.yaml
-FORCE_TORCHRUN=1 llamafactory-cli train bash_script/qwen2vl_lora_sft.yaml
+llamafactory-cli train bash_script/qwen2vl_lora_sft.yaml
+FORCE_TORCHRUN=1 llamafactory-cli train bash_script/qwen2vl_lora_sft_job.yaml

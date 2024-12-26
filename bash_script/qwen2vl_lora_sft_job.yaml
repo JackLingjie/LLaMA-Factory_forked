@@ -12,7 +12,7 @@ flash_attn: fa2
 
 ### dataset
 # dataset: mllm_demo  # video: mllm_video_demo
-dataset: web2code_test  # video: mllm_video_demo
+dataset: web2code_job  # video: mllm_video_demo
 template: qwen2_vl
 cutoff_len: 3072
 max_samples: 900000
