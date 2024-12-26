@@ -17,7 +17,7 @@ template: qwen2_vl
 cutoff_len: 3072
 max_samples: 900000
 overwrite_cache: true
-preprocessing_num_workers: 16
+preprocessing_num_workers: 90
 
 ### output
 output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl-7b_3072_bsz8/lora/sft
