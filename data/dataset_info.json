@@ -39,7 +39,7 @@
     }
   },
   "web2code_job": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2Code/Web2Code_sharegpt_format_abspath.json",
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2Code/Web2Code_sharegpt_format_abspath_filter.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",

@@ -7,28 +7,28 @@ stage: sft
 do_train: true
 finetuning_type: lora
 lora_target: all
-# deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
-# flash_attn: fa2
+deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+flash_attn: fa2
 
 ### dataset
 # dataset: mllm_demo  # video: mllm_video_demo
-dataset: web2code_test  # video: mllm_video_demo
-# eval_dataset: web2code_test  # video: mllm_video_demo
+dataset: web2code_job  # video: mllm_video_demo
 template: qwen2_vl
-cutoff_len: 2048
-max_samples: 200
+cutoff_len: 3072
+max_samples: 900000
 overwrite_cache: true
 preprocessing_num_workers: 16
-tokenized_path: saves/llama3-8b/dataset/sft
+tokenized_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl-7b_3072_bsz8/dataset/sft
 
 ### output
-output_dir: saves/qwen2_vl-7b/lora/sft
+output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl-7b_3072_bsz8/lora/sft
 logging_steps: 10
 save_steps: 500
 plot_loss: true
 overwrite_output_dir: true
 
-### train
+### train 
+
 per_device_train_batch_size: 1
 gradient_accumulation_steps: 8
 learning_rate: 1.0e-4
