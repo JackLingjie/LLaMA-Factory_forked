@@ -67,7 +67,7 @@ def download_image(url, index, output_folder, url_to_filename, existing_images):
   
         except requests.RequestException as e:  
             print(f"Attempt {attempt+1} failed for {url}: {e}")  
-            delay = random.uniform(0.1, 1)  # 增加等待时间，避免过于频繁请求  
+            delay = random.uniform(0.5, 1.5)  # 增加等待时间，避免过于频繁请求  
             time.sleep(delay)  
   
     return f"Failed to download after 5 attempts: {url}"  
