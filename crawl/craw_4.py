@@ -67,7 +67,7 @@ def download_image(url, index, output_folder, url_to_filename, existing_images):
   
         except requests.RequestException as e:  
             print(f"Attempt {attempt+1} failed for {url}: {e}")  
-            delay = random.uniform(0.1, 1)  # 增加等待时间，避免过于频繁请求  
+            delay = random.uniform(0.5, 1.5)  # 增加等待时间，避免过于频繁请求  
             time.sleep(delay)  
   
     return f"Failed to download after 5 attempts: {url}"  
@@ -94,7 +94,7 @@ def main():
     # 加载已有的 URL 到文件名的映射  
     url_to_filename = load_existing_mapping(mapping_file, image_urls, existing_images)  
   
-    with ThreadPoolExecutor(max_workers=20) as executor:  
+    with ThreadPoolExecutor(max_workers=10) as executor:  
         futures = {executor.submit(download_image, url, index, output_folder, url_to_filename, existing_images): url for index, url in enumerate(image_urls)}  
   
         for future in tqdm(as_completed(futures), total=len(image_urls)):  
