@@ -94,7 +94,7 @@ def main():
     # 加载已有的 URL 到文件名的映射  
     url_to_filename = load_existing_mapping(mapping_file, image_urls, existing_images)  
   
-    with ThreadPoolExecutor(max_workers=20) as executor:  
+    with ThreadPoolExecutor(max_workers=10) as executor:  
         futures = {executor.submit(download_image, url, index, output_folder, url_to_filename, existing_images): url for index, url in enumerate(image_urls)}  
   
         for future in tqdm(as_completed(futures), total=len(image_urls)):  
