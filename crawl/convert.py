@@ -4,8 +4,11 @@ from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm  
   
 def convert_and_save(jpg_path, png_path):  
-    with Image.open(jpg_path) as img:  
-        img.save(png_path, 'PNG')  
+    try:  
+        with Image.open(jpg_path) as img:  
+            img.save(png_path, 'PNG')  
+    except Exception as e:  
+        print(f"Error processing {jpg_path}: {e}")   
   
 def process_directory(source_directory, target_directory):  
     # Create the target directory if it doesn't exist  
@@ -13,7 +16,7 @@ def process_directory(source_directory, target_directory):
       
     jpg_files = [f for f in os.listdir(source_directory) if f.endswith('.jpg')]  
     total_files = len(jpg_files)  
-    print_interval = 10000  # 每5万次打印一次  
+    print_interval = 100  # 每5万次打印一次  
       
     with ThreadPoolExecutor() as executor:  
         # Create a list of tasks  
