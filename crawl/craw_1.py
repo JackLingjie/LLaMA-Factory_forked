@@ -64,11 +64,17 @@ def download_image(url, index, output_folder, url_to_filename, existing_images):
             # 更新全局的 URL 到文件名的映射  
             url_to_filename[url] = file_name  
             return f"Downloaded: {file_name}"  
-  
+        
         except requests.RequestException as e:  
+            # 如果是请求异常，就重试  
             print(f"Attempt {attempt+1} failed for {url}: {e}")  
-            delay = random.uniform(0.5, 1.5)  # 增加等待时间，避免过于频繁请求  
+            delay = random.uniform(0.5, 1.5)  
             time.sleep(delay)  
+  
+        except Exception as e:  
+            # 处理所有其他异常  
+            print(f"Failed due to an unexpected error for {url}: {e}")  
+            return f"Failed to download due to invalid URL: {url}" 
   
     return f"Failed to download after 5 attempts: {url}"  
   
