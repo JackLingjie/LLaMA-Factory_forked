@@ -52,6 +52,48 @@
       "assistant_tag": "assistant"
     }
   },
+  "mmcode_job": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/MMCode/single_image_right_train_data.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "mmcode_2200_job": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/MMCode/single_image_right_train_data_2200.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "mmcode_2500_job": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/MMCode/single_image_right_train_data_2200.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },  
   "mllm_demo": {
     "file_name": "mllm_demo.json",
     "formatting": "sharegpt",

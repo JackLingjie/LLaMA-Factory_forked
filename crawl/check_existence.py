@@ -3,9 +3,7 @@ import os
 from tqdm import tqdm  
   
 # 读取 JSON 文件  
-json_file_path = "/mnt/lingjiejiang/multimodal_code/data/stack_supply/url_to_filename/updated_combined_url_to_filename.json"  
-with open(json_file_path, "r") as f:  
-    url_to_filename = json.load(f)  
+v
   
 # 定义基础目录  
 base_directory = "/mnt/lingjiejiang/multimodal_code/data/supply_images"  
