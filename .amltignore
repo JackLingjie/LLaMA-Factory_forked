@@ -2,4 +2,5 @@ evaluation/mmlu/mmlu.zip
 data/dpo_en_demo.json  
 evaluation/ceval/ceval.zip  
 evaluation/cmmlu/cmmlu.zip  
-data/wiki_demo.txt  
+data/wiki_demo.txt 
+crawl/ 
