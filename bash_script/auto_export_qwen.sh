@@ -5,8 +5,9 @@ set -x
 # 定义模型名称的数组  
 model_names=(
     # "ta_chosen_tuluv2_dpo_2048_default_template_bsz1_acc8_v2"
-    "qwen2_vl-7b_3072_bsz8_mmcode_single_right_2200"
-    "qwen2_vl-7b_3072_bsz8_mmcode_single_right_2500"
+    # "qwen2_vl-7b_3072_bsz8_mmcode_single_right_2200"
+    # "qwen2_vl-7b_3072_bsz8_mmcode_single_right_2500"
+    "qwen2_vl-7b_3072_bsz8_mmcode_single_right_2200_2epoch"
 )  # 替换成你的模型名称列表  
   
 # 定义YAML文件路径  
