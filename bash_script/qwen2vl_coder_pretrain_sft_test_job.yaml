@@ -20,7 +20,7 @@ cutoff_len: 3072
 max_samples: 100000
 overwrite_cache: true
 preprocessing_num_workers: 16
-tokenized_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_mn_only-7b_3072_bsz8_test_job/dataset/bsz64_epoch1
+tokenized_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_llava_pretrain_job/dataset/bsz64_epoch1
 # tokenized_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl-7b_3072_bsz8/dataset/sft
 
 ### output
