@@ -43,3 +43,5 @@ FORCE_TORCHRUN=1 llamafactory-cli train bash_script/qwen2vl_coder_pretrain_sft_t
 
 
 llamafactory-cli train bash_script/qwen2vl_coder_lora_sft_test_all.yaml
+
+llamafactory-cli train bash_script/qwen2vl_coder_lora_sft_test_all.yaml
