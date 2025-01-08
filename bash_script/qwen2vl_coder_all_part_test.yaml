@@ -8,6 +8,7 @@ do_train: true
 # finetuning_type: lora
 finetuning_type: full
 additional_target: merger
+freeze_vision_tower: false
 # train_mm_proj_only: true #训练多模态投影器
 # lora_target: all
 deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
@@ -25,7 +26,7 @@ preprocessing_num_workers: 16
 
 ### output
 # output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl-7b_3072_bsz8/lora/sft
-output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_llm_and_merger-7b_3072_bsz8_test/lora/sft
+output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_unfreeze-7b_3072_bsz8_test/lora/sft
 logging_steps: 10
 save_steps: 500
 plot_loss: true
