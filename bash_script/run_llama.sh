@@ -49,6 +49,8 @@ FORCE_TORCHRUN=1 llamafactory-cli train bash_script/qwen2vl_coder_lora_sft_test_
 FORCE_TORCHRUN=1 llamafactory-cli train bash_script/qwen2vl_coder_all_part_test.yaml
 llamafactory-cli train bash_script/qwen2vl_coder_pretrain_sft_test_job_preprocess.yaml
 
+
+FORCE_TORCHRUN=1 llamafactory-cli train bash_script/qwen2vl_coder_llm_merger_test_2b.yaml
 export OMP_NUM_THREADS=8
 export NCCL_IB_DISABLE=0
 export NCCL_IB_GID_INDEX=3
