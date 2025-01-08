@@ -94,6 +94,20 @@
       "assistant_tag": "assistant"
     }
   },
+  "llava_mid_filter_sampled_job": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_code_data/llava_ov_mid_all_filter_noimage_en_sampled.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "llava_code_job_debug": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_code_data/llava_midstage_code_debug_job.json",
     "formatting": "sharegpt",
