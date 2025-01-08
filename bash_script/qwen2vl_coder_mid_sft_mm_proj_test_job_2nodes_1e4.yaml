@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: /mnt/lingjiejiang/multimodal_code/checkpoints/vlms/Qwen2-VL-2B-Instruct
+model_name_or_path: /mnt/lingjiejiang/multimodal_code/checkpoints/vlms/Qwenvl2-coder2.5-7B-Instruct_merge
 trust_remote_code: true
 
 ### method
@@ -7,35 +7,34 @@ stage: sft
 do_train: true
 # finetuning_type: lora
 finetuning_type: full
-# additional_target: merger
-# train_mm_proj_only: true #训练多模态投影器
+train_mm_proj_only: true #训练多模态投影器
 # lora_target: all
-# deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
-# flash_attn: fa2
+deepspeed: examples/deepspeed/ds_z0_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+flash_attn: fa2
 
 ### dataset
-# dataset: web2code_test  # video: mllm_video_demo
-# dataset: mllm_demo_test
-dataset: mllm_demo
+dataset: llava_mid_filter_job  # video: mllm_video_demo
 # dataset: llava_code_job_debug  # video: mllm_video_demo
 template: qwen2_vl
-cutoff_len: 2048
-max_samples: 50
+cutoff_len: 3072
+max_samples: 100000
 overwrite_cache: true
 preprocessing_num_workers: 16
+tokenized_path: /mnt/lingjiejiang/multimodal_code/data/preprocess/llava_mid_filter_job_3072
 # tokenized_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl-7b_3072_bsz8/dataset/sft
 
 ### output
 # output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl-7b_3072_bsz8/lora/sft
-output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_llm_and_merger-2b_qwen_branch_test/lora/sft
+output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_mn_only-7b_3072_bsz128_1e4_llava_mid_filter_job/sft/full/
 logging_steps: 10
 save_steps: 500
 plot_loss: true
 overwrite_output_dir: true
+report_to: tensorboard
 
 ### train
 per_device_train_batch_size: 1
-gradient_accumulation_steps: 2
+gradient_accumulation_steps: 8
 learning_rate: 1.0e-4
 num_train_epochs: 1.0
 lr_scheduler_type: cosine
