@@ -52,6 +52,20 @@
       "assistant_tag": "assistant"
     }
   },
+  "llava_pretrain_job": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_onevision/LLaVA-Pretrain/blip_laion_cc_sbu_558k_lf_job.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "llava_code_job": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_code_data/llava_midstage_code_job.json",
     "formatting": "sharegpt",

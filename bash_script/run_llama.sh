@@ -36,3 +36,5 @@ FORCE_TORCHRUN=1 llamafactory-cli train bash_script/qwen2vl_lora_sft_mmcode_job.
 llamafactory-cli export bash_script/merge/qwen2vl_sft_mmcode_merge.yaml
 
 llamafactory-cli train bash_script/qwen2vl_coder_lora_sft_test.yaml
+
+llamafactory-cli train bash_script/qwen2vl_coder_pretrain_sft_test_job_preprocess.yaml
