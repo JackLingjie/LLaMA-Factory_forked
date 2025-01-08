@@ -141,7 +141,8 @@ def get_forbidden_modules(config: "PretrainedConfig", finetuning_args: "Finetuni
         if finetuning_args.train_mm_proj_only:
             forbidden_modules.update({"visual.patch_embed", "visual.blocks", "model", "lm_head"})
         elif finetuning_args.freeze_vision_tower:
-            forbidden_modules.add("visual")
+            forbidden_modules.add({"visual.patch_embed", "visual.blocks"})
+            # forbidden_modules.add("visual")
 
     return forbidden_modules
 
