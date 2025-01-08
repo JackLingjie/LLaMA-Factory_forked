@@ -16,7 +16,7 @@ finetuning_type: full
 dataset: web2code_test  # video: mllm_video_demo
 # dataset: llava_code_job_debug  # video: mllm_video_demo
 template: qwen2_vl
-cutoff_len: 2048
+cutoff_len: 1024
 max_samples: 50
 overwrite_cache: true
 preprocessing_num_workers: 16
