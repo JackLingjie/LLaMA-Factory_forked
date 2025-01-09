@@ -10,7 +10,7 @@ finetuning_type: lora
 # train_mm_proj_only: true #训练多模态投影器
 lora_target: all
 deepspeed: examples/deepspeed/ds_z0_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
-# flash_attn: fa2
+flash_attn: fa2
 
 ### dataset
 dataset: web2code_job  # video: mllm_video_demo

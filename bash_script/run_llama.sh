@@ -83,3 +83,4 @@ llamafactory-cli export bash_script/merge/qwen2vl_coder_mm_pretrained_web2code_m
 FORCE_TORCHRUN=1 llamafactory-cli train bash_script/qwen2vl_coder_pretrain_sft_test_job_2nodes_1e5_web2code.yaml
 
 FORCE_TORCHRUN=1 llamafactory-cli train bash_script/qwen2vl_coder_pretrain_sft_test_job_2nodes_1e5_web2code.yaml
+llamafactory-cli train bash_script/qwen2vl_coder_pretrain_sft_test_job_2nodes_1e5_web2code_debug.yaml
