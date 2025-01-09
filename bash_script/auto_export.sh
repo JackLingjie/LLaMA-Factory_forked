@@ -1,0 +1,4 @@
+llamafactory-cli export bash_script/merge/qwen2vl_coder_mm_pretrained_web2code_merge_1000.yaml
+llamafactory-cli export bash_script/merge/qwen2vl_coder_mm_pretrained_web2code_merge_1500.yaml
+llamafactory-cli export bash_script/merge/qwen2vl_coder_mm_pretrained_web2code_merge_2000.yaml
+llamafactory-cli export bash_script/merge/qwen2vl_coder_mm_pretrained_web2code_merge_3000.yaml
