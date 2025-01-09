@@ -25,7 +25,7 @@ tokenized_path: /mnt/lingjiejiang/multimodal_code/data/preprocess/llava_mid_filt
 
 ### output
 # output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl-7b_3072_bsz8/lora/sft
-output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_mn_only-7b_3072_bsz128_1e4_mid_1M_job/sft/full
+output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_mn_only-7b_3072_bsz128_1e4_mid_lenqi_1M_job/sft/full
 logging_steps: 10
 save_steps: 500
 plot_loss: true
