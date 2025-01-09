@@ -2,13 +2,13 @@
 
 ### model
 model_name_or_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_mn_only-7b_3072_bsz128_1e4_test_job/fullft_1e4/bsz128_epoch1
-adapter_name_or_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_mn_only-7b_3072_bsz128_1e4_web2code_merger_job/sft/full/checkpoint-2000/
+adapter_name_or_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_mn_only-7b_3072_bsz128_1e4_web2code_job/sft/full/checkpoint-4000/
 template: qwen2_vl
 finetuning_type: lora
 trust_remote_code: true
 
 ### export
-export_dir: /mnt/lingjiejiang/multimodal_code/sft_checkpoints/qwen2_vl_coder_mn_only-7b_3072_bsz128_1e4_web2code_merger_2000
+export_dir: /mnt/lingjiejiang/multimodal_code/sft_checkpoints/qwen2_vl_coder_mn_pretrain_LLM_sft-7b_3072_bsz128_1e4_web2code_job_4000
 export_size: 2
 export_device: cpu
 export_legacy_format: false
