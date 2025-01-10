@@ -52,6 +52,35 @@
       "assistant_tag": "assistant"
     }
   },
+  
+  "pretrain_mix_114k_job": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/mixed_data/datikz48_llava16_web2code50_pretrain_114k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "pretrain_job": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2Code/Web2Code_sharegpt_format_abspath_filter.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "llava_pretrain_job": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_onevision/LLaVA-Pretrain/blip_laion_cc_sbu_558k_lf_job.json",
     "formatting": "sharegpt",
