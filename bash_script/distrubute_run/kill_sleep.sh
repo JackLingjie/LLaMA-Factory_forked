@@ -7,7 +7,7 @@ script=$(cat << 'EOF'
 sudo kill $(pgrep -f run_gpu)
 if ! command -v lsof &> /dev/null; then
     echo 'Installing lsof on $NODE...'
-    sudo apt-get install -y lsof
+    sudo apt-get install lsof
 fi
 
 # 查找并杀死占用指定端口的进程
