@@ -4,7 +4,7 @@
 NODES_FILE="bash_script/distrubute_run/node_config/nodes.txt"
 
 script=$(cat << 'EOF'
-sudo kill $(pgrep -f run_gpu)
+kill $(pgrep -f run_gpu)
 if ! command -v lsof &> /dev/null; then
     echo 'Installing lsof on $NODE...'
     sudo apt-get install lsof
