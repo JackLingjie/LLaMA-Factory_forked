@@ -53,7 +53,7 @@
     }
   },
   "pretrain_llava_stage2_1M_job": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_stage2_data/llava_ov_stage2_si_all_sharegpt_format_1M_fixed.json",
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_stage2_data/llava_ov_stage2_si_all_one_trun_100k_merged.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",
@@ -66,7 +66,6 @@
       "assistant_tag": "assistant"
     }
   },
-
   "pretrain_llava_stage2_1k_test": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_stage2_data/llava_ov_stage2_si_all_sharegpt_format_1k_sampled.json",
     "formatting": "sharegpt",
