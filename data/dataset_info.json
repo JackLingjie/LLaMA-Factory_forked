@@ -52,9 +52,23 @@
       "assistant_tag": "assistant"
     }
   },
-  
   "pretrain_llava_stage2_1M_job": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_stage2_data/llava_ov_stage2_si_all_sharegpt_format_1M.json",
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_stage2_data/llava_ov_stage2_si_all_sharegpt_format_1M_fixed.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+
+  "pretrain_llava_stage2_1k_test": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_stage2_data/llava_ov_stage2_si_all_sharegpt_format_1k_sampled.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",
@@ -81,6 +95,21 @@
       "assistant_tag": "assistant"
     }
   },
+  "llava_code_test": {
+    "file_name":   "/mnt/lingjiejiang/multimodal_code/data/llava_code_data/llava_mid_satge_stage2_merged_code_16k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+
   "pretrain_job": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2Code/Web2Code_sharegpt_format_abspath_filter.json",
     "formatting": "sharegpt",

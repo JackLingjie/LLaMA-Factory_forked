@@ -1,0 +1,14 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_mn_only-7b_3072_bsz128_1e4_mid_lenqi_1M_job/sft/full
+adapter_name_or_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_mn_only-7b_3072_1.5pretrain_bsz128_1e5_web2code_job/sft/lora/checkpoint-5000
+template: qwen2_vl
+finetuning_type: lora
+trust_remote_code: true
+
+### export
+export_dir: /mnt/lingjiejiang/multimodal_code/sft_checkpoints/qwen2_vl_coder_mn_only-7b_3072_1.5pretrain_bsz128_1e5_web2code_job_5000
+export_size: 2
+export_device: cpu
+export_legacy_format: false
