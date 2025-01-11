@@ -1,0 +1,1 @@
+pdsh -R ssh -w ^bash_script/distrubute_run/node_config/nodes.txt 'bash -s' < bash_script/distrubute_run/install_llama.sh  
