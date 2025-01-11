@@ -1,4 +1,4 @@
-#!bin/bash
+ #!/bin/bash
 
 pdsh -R ssh -w ^bash_script/distrubute_run/node_config/nodes.txt 'bash -c "
 cd /tmp && \
