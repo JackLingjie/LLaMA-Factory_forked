@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 # 定义变量
 NNODES=2
 MASTER_ADDR="node-0"
