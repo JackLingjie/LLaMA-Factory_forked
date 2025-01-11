@@ -18,11 +18,11 @@ if [ "$current_branch" != "dev" ]; then
     git checkout -b dev origin/dev || git checkout dev
 fi
 
-# # 安装所需的Python包
-# pip install deepspeed==0.14.4
-# pip install -U flash-attn==2.6.3 --no-build-isolation
-# pip install tensorboard
-# pip install -e ".[torch,metrics]"
+# 安装所需的Python包
+pip install deepspeed==0.14.4
+pip install -U flash-attn==2.6.3 --no-build-isolation
+pip install tensorboard
+pip install -e ".[torch,metrics]"
 EOF
 )
 
