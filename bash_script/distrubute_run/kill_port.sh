@@ -25,12 +25,12 @@ if ! command -v lsof &> /dev/null; then
     sudo apt update && sudo apt install -y lsof
 fi
 
-# 终止运行在端口 12345 的进程
-if sudo lsof -t -i :12345 &> /dev/null; then
-    echo \"Killing processes on port 12345...\"
-    sudo kill -9 \$(sudo lsof -t -i :12345)
+# 终止运行在端口 12335 的进程
+if sudo lsof -t -i :12335 &> /dev/null; then
+    echo \"Killing processes on port 12335...\"
+    sudo kill -9 \$(sudo lsof -t -i :12335)
 else
-    echo \"No processes running on port 12345.\"
+    echo \"No processes running on port 12335.\"
 fi
 '"
 
