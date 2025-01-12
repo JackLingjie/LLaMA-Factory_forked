@@ -15,7 +15,7 @@ if [ "${#NODES[@]}" -ne "$NNODES" ]; then
     exit 1
 fi
 
-# 定义要在远程节点上运行的脚本
+# 定义要在本地节点上运行的脚本
 script=$(cat << 'EOF'
 cd /tmp/LLaMA-Factory_forked
 # 更新代码
@@ -32,17 +32,12 @@ llamafactory-cli train bash_script/qwen2vl_lora_sft.yaml
 EOF
 )
 
-# 获取第一个节点（NODE_RANK=0）
+# 设置本地环境变量
 NODE_RANK=0
-NODE=${NODES[$NODE_RANK]}
+export NODE_RANK
+export NNODES
+export MASTER_ADDR
+export MASTER_PORT
 
-# 使用pdsh执行命令
-pdsh -R ssh -w $NODE "
-    export NODE_RANK=$NODE_RANK;
-    export NNODES=$NNODES;
-    export MASTER_ADDR=$MASTER_ADDR;
-    export MASTER_PORT=$MASTER_PORT;
-    bash -c '$script'" &
-
-# 等待命令完成
-wait
+# 运行本地脚本
+bash -c "$script"
