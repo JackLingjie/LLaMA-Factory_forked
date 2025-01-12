@@ -66,6 +66,20 @@
       "assistant_tag": "assistant"
     }
   },
+  "mix_data_ocr_code_pretrain_578k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_code_data/mix_data_ocr_code_pretrain_578k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "pretrain_llava_stage2_1k_test": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/llava_stage2_data/llava_ov_stage2_si_all_sharegpt_format_1k_sampled.json",
     "formatting": "sharegpt",

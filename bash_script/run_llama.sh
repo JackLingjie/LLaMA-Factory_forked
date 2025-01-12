@@ -114,3 +114,10 @@ FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-0 MASTER_PORT=12335 llama
 export NCCL_NET=IB
 FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/qwen2vl_coder_stage2data_sft_mm_proj_test_job_2nodes_1e3.yaml
 
+
+export NCCL_NET=IB
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage15_3000_llm_2nodes_1e5_web2code.yaml
+export NCCL_NET=IB
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage15_3000_llm_2nodes_1e5_web2code.yaml
+
+llamafactory-cli train bash_script/pretrain_ocr_code_v1_mm_proj_job_2nodes_1e3_preprocess.yaml
