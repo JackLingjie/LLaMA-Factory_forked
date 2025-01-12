@@ -1,3 +1,3 @@
 #!/bin/bash
 
-kill $(pgrep -f LLaMA)
+kill -9 $(pgrep -f LLaMA)
