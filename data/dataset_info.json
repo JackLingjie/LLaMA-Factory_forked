@@ -24,6 +24,7 @@
       "tools": "tools"
     }
   },
+  
   "web2code_test": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2Code/Web2Code_sharegpt_format_sample_updated.json",
     "formatting": "sharegpt",
@@ -152,6 +153,21 @@
   },
   "pretrain_mix_62k_job": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/mixed_data/llava_code16k_web2code50k_depulicated_oneturn_62k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+
+  "pretrain_mix_111k_job": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/mixed_data/llava_code16k_web2code100k_depulicated_oneturn_111k.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",
