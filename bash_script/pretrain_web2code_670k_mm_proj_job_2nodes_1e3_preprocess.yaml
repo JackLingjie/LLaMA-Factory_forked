@@ -17,7 +17,7 @@ cutoff_len: 3072
 max_samples: 1000000
 overwrite_cache: true
 preprocessing_num_workers: 16
-tokenized_path: /mnt/lingjiejiang/multimodal_code/data/preprocess/web2code_filter_670k_nex
+tokenized_path: /mnt/lingjiejiang/multimodal_code/data/preprocess/web2code_filter_670k_new
 # tokenized_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl-7b_3072_bsz8/dataset/sft
 
 ### output
