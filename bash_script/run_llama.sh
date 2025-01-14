@@ -155,3 +155,23 @@ FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-2 MASTER_PORT=12335 llama
 llamafactory-cli train bash_script/pretrain_web2code_670k_mm_proj_job_2nodes_1e3_preprocess.yaml
 
 llamafactory-cli train bash_script/pretrain_web2code_all_mm_proj_job_2nodes_1e3_preprocess.yaml
+
+export NCCL_NET=IB
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/pretrain_web2code_670k_mm_proj_job_2nodes_1e3.yaml
+export NCCL_NET=IB
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/pretrain_web2code_670k_mm_proj_job_2nodes_1e3.yaml
+
+export NCCL_NET=IB
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/pretrain_web2code_all_mm_proj_job_2nodes_1e3.yaml
+export NCCL_NET=IB
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/pretrain_web2code_all_mm_proj_job_2nodes_1e3.yaml
+
+export NCCL_NET=IB
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-4 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_filter.yaml
+export NCCL_NET=IB
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-4 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_filter.yaml
+
+export NCCL_NET=IB
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-6 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_fix.yaml
+export NCCL_NET=IB
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-6 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_fix.yaml
