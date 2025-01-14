@@ -18,3 +18,7 @@ llamafactory-cli train bash_script/pretrain_ocr_code_v2_mm_proj_job_2nodes_1e3_p
 unset NCCL_NET; unset FORCE_TORCHRUN; unset NNODES; unset NODE_RANK; unset MASTER_ADDR; unset MASTER_PORT; llamafactory-cli train bash_script/pretrain_ocr_code_v3_mm_proj_job_2nodes_1e3_preprocess.yaml
 
 unset NCCL_NET; unset FORCE_TORCHRUN; unset NNODES; unset NODE_RANK; unset MASTER_ADDR; unset MASTER_PORT; llamafactory-cli train bash_script/pretrain_ocr_code_v4_mm_proj_job_2nodes_1e3_preprocess.yaml
+
+llamafactory-cli train bash_script/pretrain_web2code_669k_new_img_mm_proj_job_2nodes_1e3_preprocess.yaml
+
+llamafactory-cli train bash_script/pretrain_web2code_670k_mm_proj_job_2nodes_1e3_preprocess.yaml

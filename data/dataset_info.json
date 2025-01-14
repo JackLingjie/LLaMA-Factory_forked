@@ -53,6 +53,21 @@
       "assistant_tag": "assistant"
     }
   },
+  "web2code_filter_669k_new_img": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2Code/Web2Code_onetrun_new_img.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+
   "web2code_job": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2Code/Web2Code_sharegpt_format_abspath_filter.json",
     "formatting": "sharegpt",
