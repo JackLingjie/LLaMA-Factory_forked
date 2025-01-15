@@ -174,4 +174,5 @@ wandb/
 swanlog/
 generated_predictions.jsonl
 data_process/
-
+img_preview
+img_preview.zip
