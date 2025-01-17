@@ -351,7 +351,7 @@
     }
   },  
   "mmcode_gpt4o_right_860_job": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/MMCode/train_data_gpt4o_with_right_single_image.json",
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/MMCode/train_data_gpt4o_with_right_single_image_860.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",
