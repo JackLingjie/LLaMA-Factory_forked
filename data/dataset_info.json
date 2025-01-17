@@ -351,6 +351,20 @@
     }
   },  
   
+  "mmcode_gpt4o_330_job": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/MMCode/train_data_gpt4o_with_right_single_image_all_related_330.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  }, 
   "mmcode_gpt4o_right_related_797_job": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/MMCode/train_data_gpt4o_with_right_single_image_all_related_797.json",
     "formatting": "sharegpt",

@@ -186,3 +186,7 @@ FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-0 MASTER_PORT=12335 llama
 FORCE_TORCHRUN=1 llamafactory-cli train bash_script/staged2_sft_mmcode_2500_gpt4o_job.yaml
 
 FORCE_TORCHRUN=1 llamafactory-cli train bash_script/staged2_sft_mmcode_gpt4o_right_860_gpt4o_job.yaml
+
+FORCE_TORCHRUN=1 llamafactory-cli train bash_script/staged2_sft_mmcode_related_right_797_gpt4o_job.yaml
+
+FORCE_TORCHRUN=1 llamafactory-cli train bash_script/staged2_sft_mmcode_gpt4o330_job.yaml
