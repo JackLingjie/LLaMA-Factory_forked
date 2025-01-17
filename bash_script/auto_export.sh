@@ -9,3 +9,5 @@ llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_web2code_bsz128_
 llamafactory-cli export bash_script/merge/stage2_mmcode_sft.yaml
 
 llamafactory-cli export bash_script/merge/stage2_mmcode_sft_860.yaml
+
+llamafactory-cli export bash_script/merge/stage2_mmcode_sft_330.yaml

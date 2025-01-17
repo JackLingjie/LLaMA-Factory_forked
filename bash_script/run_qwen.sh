@@ -22,3 +22,4 @@ unset NCCL_NET; unset FORCE_TORCHRUN; unset NNODES; unset NODE_RANK; unset MASTE
 llamafactory-cli train bash_script/pretrain_web2code_669k_new_img_mm_proj_job_2nodes_1e3_preprocess.yaml
 
 llamafactory-cli train bash_script/pretrain_web2code_670k_mm_proj_job_2nodes_1e3_preprocess.yaml
+
