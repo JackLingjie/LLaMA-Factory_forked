@@ -23,3 +23,7 @@ llamafactory-cli train bash_script/pretrain_web2code_669k_new_img_mm_proj_job_2n
 
 llamafactory-cli train bash_script/pretrain_web2code_670k_mm_proj_job_2nodes_1e3_preprocess.yaml
 
+
+llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_rick_v1_760k_preprocess.yaml
+
+llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_rick_v2_760k_preprocess.yaml
