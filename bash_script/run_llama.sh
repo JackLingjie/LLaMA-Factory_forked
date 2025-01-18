@@ -194,3 +194,8 @@ FORCE_TORCHRUN=1 llamafactory-cli train bash_script/staged2_sft_mmcode_gpt4o330_
 FORCE_TORCHRUN=1 llamafactory-cli train bash_script/staged2_sft_mmcode_gpt4o_right_860_gpt4o_670k_job.yaml
 
 FORCE_TORCHRUN=1 llamafactory-cli train bash_script/staged2_sft_mmcode_gpt4o_right_860_gpt4o_pretrain_llm.yaml
+
+
+bash_script/stage2_llm_2nodes_1e5_web2code_rick_v1_760k.yaml
+
+bash_script/stage2_llm_2nodes_1e5_web2code_rick_v2_760k.yaml

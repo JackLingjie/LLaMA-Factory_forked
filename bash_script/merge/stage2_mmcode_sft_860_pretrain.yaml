@@ -2,13 +2,13 @@
 
 ### model
 model_name_or_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl_coder_mn_only-7b_3072_bsz128_1e3_pretrain_mix_114k_job_3072/sft/full
-adapter_name_or_path: /mnt/lingjiejiang/multimodal_code/exp/saves/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_web2code_job_fixed-mmcode_gpt4o_right_860_670k_job/lora/sft
+adapter_name_or_path: /mnt/lingjiejiang/multimodal_code/exp/saves/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_web2code_job_fixed-mmcode_gpt4o_right_860_mix114k_job/lora/sft/checkpoint-24/
 template: qwen2_vl
 finetuning_type: lora
 trust_remote_code: true
 
 ### export
-output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_web2code_job_fixed-mmcode_gpt4o_right_860_mix114k_job/lora/sft
+export_dir: /mnt/lingjiejiang/multimodal_code/sft_checkpoints/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_web2code_job_fixed-mmcode_gpt4o_right_860_mix114k
 export_size: 2
 export_device: cpu
 export_legacy_format: false
