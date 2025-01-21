@@ -67,6 +67,34 @@
       "assistant_tag": "assistant"
     }
   },
+  "img_revised_81k_v1": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2code_gpt4o/revised_81k_v1.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "img_revised_html_tag_81k_v2": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2code_gpt4o/revised_html_tag_81k_v2.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "web2code_rick_760k_prompt_added_v2": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2Code/Web2Code_onetrun_rick_760k_rick_prompt_v2.json",
     "formatting": "sharegpt",
