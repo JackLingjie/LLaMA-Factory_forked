@@ -31,7 +31,7 @@ llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_rick_v2_760k_p
 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_rick_v3_503k_preprocess.yaml
 
 
-llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_rick_revised_751k_v1_preprocess.yaml
+llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_rick_revised_750k_v1_preprocess.yaml
 
 
 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_rick_revised_html_tag_751k_v2_process.yaml
