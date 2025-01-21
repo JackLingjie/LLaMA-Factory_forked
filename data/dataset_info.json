@@ -67,8 +67,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "img_revised_81k_v1": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2code_gpt4o/revised_81k_v1.json",
+  "img_revised_80k_v1": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2code_gpt4o/revised_80k_v1.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",
@@ -95,8 +95,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "img_revised_html_tag_81k_v2": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2code_gpt4o/revised_html_tag_81k_v2.json",
+  "img_revised_html_tag_80k_v2": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/Web2code_gpt4o/revised_html_tag_80k_v2.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",

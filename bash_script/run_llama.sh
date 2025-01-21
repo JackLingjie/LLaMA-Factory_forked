@@ -212,14 +212,14 @@ bash_script/stage2_llm_2nodes_1e5_web2code_rick_v2_760k.yaml
 
 
 export NCCL_NET=IB
-FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_revised_81k_v1.yaml
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_img_revised_80k_v1.yaml
 export NCCL_NET=IB
-FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_revised_81k_v1.yaml
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_img_revised_80k_v1.yaml
 
 export NCCL_NET=IB
-FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_revised_81k_v2.yaml
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_img_revised_html_tag_80k_v2.yaml
 export NCCL_NET=IB
-FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_revised_81k_v2.yaml
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_img_revised_html_tag_80k_v2.yaml
 
 export NCCL_NET=IB
 FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_revised_81k_v2.yaml

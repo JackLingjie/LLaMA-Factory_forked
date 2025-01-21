@@ -176,3 +176,4 @@ generated_predictions.jsonl
 data_process/
 img_preview
 img_preview.zip
+code_data_process/*.json
