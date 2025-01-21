@@ -81,8 +81,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "chart123k": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/chart_data/revised_data_existing_images_123k_sharegpt_format.json",
+  "chart52k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/chart_data/revised_data_existing_images_52k_sharegpt_format.json" ,
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",

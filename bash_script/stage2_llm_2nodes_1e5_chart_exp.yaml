@@ -11,7 +11,7 @@ deepspeed: examples/deepspeed/ds_z0_config.json  # choices: [ds_z0_config.json, 
 flash_attn: fa2
 
 ### dataset
-dataset: chart123k  # video: mllm_video_demo
+dataset: chart52k  # video: mllm_video_demo
 template: qwen2_vl
 cutoff_len: 3072
 max_samples: 1000000
@@ -22,7 +22,7 @@ preprocessing_num_workers: 16
 
 ### output
 # output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_vl-7b_3072_bsz8/lora/sft
-output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_chart123k/sft/lora
+output_dir: /mnt/lingjiejiang/multimodal_code/exp/saves/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_chart52k/sft/lora
 logging_steps: 10
 save_steps: 500
 plot_loss: true
