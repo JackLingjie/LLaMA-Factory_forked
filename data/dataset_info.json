@@ -451,7 +451,7 @@
   }, 
 
   "code20_html80_mix_100k": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/code_contest/html_code_data_mix_100k.json",
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/code_contest/html_code_data_mix_100k_purify.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",
