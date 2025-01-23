@@ -177,3 +177,4 @@ data_process/
 img_preview
 img_preview.zip
 code_data_process/*.json
+code_data_process/revised_code_output
