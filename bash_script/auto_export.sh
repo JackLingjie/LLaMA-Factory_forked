@@ -1,9 +1,2 @@
-llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_500.yaml
-llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_1000.yaml
-llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_1500.yaml
-llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_v2_500.yaml
-llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_v2_1000.yaml
-llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_v2_1500.yaml
-
-
-# llamafactory-cli export bash_script/merge/stage2_mmcode_sft_860_pretrain.yaml
+llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_chart_evol_40k_282.yaml
+# llamafactory-cli export bash_script/merge/stage2_llm_stage2_llm_2nodes_1e5_web2code_bsz128_1e5_code20_html80_mix_100k_705.yaml

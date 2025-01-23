@@ -81,7 +81,20 @@
       "assistant_tag": "assistant"
     }
   },
-
+  "revised_evol_50k": {
+    "file_name":   "/mnt/lingjiejiang/multimodal_code/data/chart_data/revised_evol_50k.json" ,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "chart_evol_40k": {
     "file_name":   "/mnt/lingjiejiang/multimodal_code/data/chart_data/evol_data_filter_images_40k_sharegpt_format.json" ,
     "formatting": "sharegpt",
