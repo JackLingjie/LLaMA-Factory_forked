@@ -465,7 +465,7 @@
     }
   }, 
   "code_data_mix_21k": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/code_contest/code_data_mix_21k.json",
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/code_contest/code_data_mix_21k_purify.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",
