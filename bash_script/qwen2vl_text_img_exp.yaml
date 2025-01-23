@@ -7,8 +7,8 @@ stage: sft
 do_train: true
 finetuning_type: lora
 lora_target: all
-# deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
-# flash_attn: fa2
+deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+flash_attn: fa2
 
 ### dataset
 # dataset: mllm_demo  # video: mllm_video_demo

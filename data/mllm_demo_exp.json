@@ -117,6 +117,19 @@
   {
     "messages": [
       {
+        "content": "他是谁？",
+        "role": "user"
+      },
+      {
+        "content": "他是来自拜仁慕尼黑的托马斯·穆勒。",
+        "role": "assistant"
+      }
+    ],
+    "images": []
+  },
+  {
+    "messages": [
+      {
         "content": "<image>请描述这张图片",
         "role": "user"
       },
