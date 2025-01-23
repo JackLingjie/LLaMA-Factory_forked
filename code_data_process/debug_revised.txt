@@ -1,0 +1,30 @@
+x = int(input())
+u = input()
+v = input()
+w = input()
+
+def max_character_frequency(s):
+    max_freq = 0
+    for char in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ':
+        max_freq = max(max_freq, s.count(char))
+    
+    changes_needed = len(s) - max_freq
+    
+    if changes_needed == 0 and x == 1:
+        return len(s) - 1
+    if changes_needed > x:
+        return max_freq + x
+    else:
+        return len(s)
+
+frequencies = [max_character_frequency(u), max_character_frequency(v), max_character_frequency(w)]
+max_value = max(frequencies)
+a, b, c = frequencies
+
+if a == max_value and b != max_value and c != max_value:
+    print('Kuro')
+elif b == max_value and a != max_value and c != max_value:
+    print('Shiro')
+elif c == max_value and a != max_value and b != maxi_valuerint('Katie')
+else:
+print('Draw')

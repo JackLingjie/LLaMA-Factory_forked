@@ -1,0 +1,29 @@
+  
+Below is the code solution to an algorithm problem. Please help me rewrite this code according to standard coding conventions. The input and output requirements of the problem are as follows:  
+  
+1. Please enclose your code within a ```python``` block.  
+2. Do not write a main() function.  
+3. The modified code should use the same output format as the original code. If the original code uses print, then the modified code should also use print. If the original code uses return, then the modified code should also use return.
+4. Directly output the modified code without adding any additional content. 
+  
+Here is the code that needs to be revised:  
+  
+# Original code that needs revision  
+
+for _ in range(int(input())):
+	(m, ans) = (1, 0)
+	(N, X) = list(map(int, input().split()))
+	i = 0
+	while True:
+		if X & 1 << i:
+			i += 1
+			continue
+		if N & 1 << i:
+			ans += m
+		m = 2 * m
+		if 1 << i > max(N, X):
+			break
+		i += 1
+	print(ans)  
+  
+Please provide the revised, well-structured code according to these instructions. 

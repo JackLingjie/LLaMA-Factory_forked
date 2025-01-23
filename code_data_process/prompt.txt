@@ -1,0 +1,15 @@
+prompt_template = """  
+Below is the code solution to an algorithm problem. Please help me rewrite this code according to standard coding conventions. The input and output requirements of the problem are as follows:  
+  
+- Please enclose your code within a ```python``` block.  
+- Do not write a main() function.  
+- If the Call-Based format is used, ensure the function returns the result instead of printing it.  
+  
+Here is the code that needs to be revised:  
+  
+# Original code that needs revision  
+{RAW_CODE}  
+  
+Please provide the revised, well-structured code according to these instructions. 
+
+"""  
