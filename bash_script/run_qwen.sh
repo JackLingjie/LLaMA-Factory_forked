@@ -38,3 +38,4 @@ llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_rick_revised_h
 
 llamafactory-cli train bash_script/qwen2vl_text_img_exp.yaml
 
+llamafactory-cli train bash_script/qwen2vl_text_img_exp.yaml

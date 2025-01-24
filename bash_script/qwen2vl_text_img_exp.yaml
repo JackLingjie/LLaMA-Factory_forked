@@ -7,15 +7,15 @@ stage: sft
 do_train: true
 finetuning_type: lora
 lora_target: all
-deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
-flash_attn: fa2
+# deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+# flash_attn: fa2
 
 ### dataset
 # dataset: mllm_demo  # video: mllm_video_demo
-dataset: mllm_demo_exp  # video: mllm_video_demo
+dataset: html_taco_revised_mix_95k  # video: mllm_video_demo
 template: qwen2_vl
 cutoff_len: 2048
-max_samples: 200
+max_samples: 100000
 overwrite_cache: true
 preprocessing_num_workers: 16
 

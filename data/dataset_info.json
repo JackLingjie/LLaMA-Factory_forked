@@ -81,9 +81,8 @@
       "assistant_tag": "assistant"
     }
   },
-
-  "html_taco_revised_mix_95k": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/code_contest/html_taco_revised_mix_95k.json",
+  "code_revised_filter_15k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/code_contest/code_revised_filter_15k.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",
@@ -168,6 +167,20 @@
   },
   "html_chart_mix_v2_130k": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/chart_data/html_chart_mix_v2_130k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "html_taco_revised_mix_95k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/code_contest/html_taco_revised_mix_95k_purify.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages",
