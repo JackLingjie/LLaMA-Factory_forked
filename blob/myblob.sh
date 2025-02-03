@@ -1,6 +1,8 @@
 #!/bin/bash
 set -x
 
+bash blob/install_blob.sh
+
 CN=lingjiejiang
 
 MOUNT_DIR=/mnt/${CN}
