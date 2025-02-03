@@ -18,7 +18,7 @@ target:
   name: msrresrchvc
   resource_group: gcr-singularity-resrch
   # workspace_name: Workspace_NLC
-  workspace_name: NLC_Workspace
+  workspace_name: Workspace_NLC
 
 # target:
 #   service: sing
