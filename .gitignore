@@ -176,7 +176,8 @@ generated_predictions.jsonl
 data_process/
 !data_process/*.py
 !data_process/*.ipynb
-
+!data_process/**/*.py
+!data_process/**/*.ipynb
 img_preview
 img_preview.zip
 code_data_process/*.json
