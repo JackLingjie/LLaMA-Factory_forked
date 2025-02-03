@@ -39,3 +39,5 @@ llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_rick_revised_h
 llamafactory-cli train bash_script/qwen2vl_text_img_exp.yaml
 
 llamafactory-cli train bash_script/qwen2vl_text_img_exp.yaml
+
+FORCE_TORCHRUN=1 llamafactory-cli train bash_script/chart_dpo_4o_qwen72b_47k_test.yaml
