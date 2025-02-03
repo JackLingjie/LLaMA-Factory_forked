@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 
-bash blob/install_blob.sh
+bash install_blob.sh
 
 CN=lingjiejiang
 
