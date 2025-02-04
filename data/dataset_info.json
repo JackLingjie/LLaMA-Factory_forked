@@ -221,7 +221,21 @@
       "assistant_tag": "assistant"
     }
   },
-  
+  "html_chartbench_mix_v3_127k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/chart_data/html_chart_mix_v3_127k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+
   "stack_html_147k": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/stack_overflow/filter_data/merged_format_147k.json",
     "formatting": "sharegpt",
