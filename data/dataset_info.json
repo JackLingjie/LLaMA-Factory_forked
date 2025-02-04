@@ -67,6 +67,34 @@
       "assistant_tag": "assistant"
     }
   },
+  "chart_evol_bench_mix_v1_97k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/chart_data/chart_evol_bench_mix_v1_97k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "chart_revised_evol_bench_mix_v2_137k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/chart_data/chart_revised_evol_bench_mix_v2_137k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "chartbench_images_46k_raw_answer": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/chart_data/ChartBench/chartbench_images_46k_raw_answer.json",
     "formatting": "sharegpt",
