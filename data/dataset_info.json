@@ -1211,6 +1211,28 @@
       "images": "images"
     }
   },
+  "dpo_origin_image_7b_32k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/chart/dpo_origin_image_7b_32k.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected",
+      "images": "images"
+    }
+  },
+  "dpo_4o_image_7b_32k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/chart/dpo_4o_image_7b_32k.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected",
+      "images": "images"
+    }
+  },
   "dpo_mimic_image_7b_27k": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/html/dpo_mimic_image_7b_27k.json",
     "ranking": true,
