@@ -4,8 +4,8 @@ sudo dpkg -i packages-microsoft-prod.deb
 
 sudo apt-get update 
 
-sudo apt-get install azure-cli
+sudo apt-get install azure-cli -y
 
-sudo apt-get install blobfuse2
+sudo apt-get install blobfuse2 -y
 
 umount /mnt/lingjiejiang
