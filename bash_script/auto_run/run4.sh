@@ -22,8 +22,11 @@ set -x
 # export NCCL_NET=IB
 # FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/dpo_chart32k_html_60k.yaml
 
+# export NCCL_NET=IB
+# FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/dpo_html_chart_mix_v3_chart_html_origin_95k.yaml
+
 export NCCL_NET=IB
-FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/dpo_html_chart_mix_v3_chart_html_origin_95k.yaml
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/dpo_qwen2vl_v1_raw_190k_origin_chart_24k_html_mix52k.yaml
 
 
 
