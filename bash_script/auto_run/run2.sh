@@ -11,8 +11,11 @@ set -x
 
 # export NCCL_NET=IB
 # FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/dpo_html_chart_mix_v3_dpo_4o_image_7b_32k_score70.yaml
+# export NCCL_NET=IB
+# FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_html_chart_stack_data_193k.yaml
+
 export NCCL_NET=IB
-FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_html_chart_stack_data_193k.yaml
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/qwen2vl_html_chart_code_data_v1_raw_190k.yaml
 
 
 python run_gpu.py
