@@ -1253,6 +1253,17 @@
       "images": "images"
     }
   },
+  "dpo_4o_code_score80_42k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/code/dpo_4o_code_score80_42k.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected",
+      "images": "images"
+    }
+  },
   "dpo_chart_html_origin_95k": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/code/dpo_chart_html_origin_95k.json",
     "ranking": true,
