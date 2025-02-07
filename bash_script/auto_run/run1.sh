@@ -46,7 +46,14 @@ set -x
 # export NCCL_NET=IB
 # FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_qwencoder2.5_500k_html_chart_code_data_v2_code_190k.yaml
 
+yaml_files=(
+    "bash_script/stage2_llm_2nodes_1e5_html_chart_stack_data_170k.yaml"
+
+)
+
+YAML_FILE="${yaml_files[0]}"
+
 export NCCL_NET=IB
-FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_html_chart_stack_data_170k.yaml
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train "$YAML_FILE"
 
 python run_gpu.py
