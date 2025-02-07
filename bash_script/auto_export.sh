@@ -8,10 +8,19 @@
 # llamafactory-cli export bash_script/merge/dpo_html_chart_mix_v3_dpo_4o_image_7b_32k_score70.yaml
 # llamafactory-cli export bash_script/merge/dpo_html_chart_mix_v3_origin_chart_24k_html_mix52k.yaml
 # llamafactory-cli export bash_script/merge/dpo_html_chart_mix_v3_origin_image_7b_32k_score70.yaml
-llamafactory-cli export bash_script/merge/dpo_chart_html_origin_41k_72b.yaml
-llamafactory-cli export bash_script/merge/dpo_chart32k_html_60k.yaml
-llamafactory-cli export bash_script/merge/qwen2vl_chart_code_data_v1_raw_190k—1342.yaml
-llamafactory-cli export bash_script/merge/qwen2vl_html_chart_code_data_v2_code_190k—1342.yaml
+# llamafactory-cli export bash_script/merge/dpo_chart_html_origin_41k_72b.yaml
+# llamafactory-cli export bash_script/merge/dpo_chart32k_html_60k.yaml
+# llamafactory-cli export bash_script/merge/qwen2vl_chart_code_data_v1_raw_190k—1342.yaml
+# llamafactory-cli export bash_script/merge/qwen2vl_html_chart_code_data_v2_code_190k—1342.yaml
+
+llamafactory-cli export bash_script/merge/dpo_html_chart_mix_chart_html_code_4o_95k.yaml
+llamafactory-cli export bash_script/merge/dpo_html_chart_mix_v3_4o_code_score80_42k.yaml
+llamafactory-cli export bash_script/merge/dpo_html_chart_mix_v3_chart_html_origin_95k-500.yaml
+llamafactory-cli export bash_script/merge/dpo_qwen2vl_v1_code_190k_origin_chart_24k_html_mix52k.yaml
+llamafactory-cli export bash_script/merge/dpo_qwen2vl_v1_raw_190k_origin_chart_24k_html_mix52k.yaml
+llamafactory-cli export bash_script/merge/qwen2_text2.5_pretrain_llava_stage2_1M_job.yaml
+llamafactory-cli export bash_script/merge/qwen2vl_coder7b_llava_500k_job_3515.yaml
+llamafactory-cli export bash_script/merge/qwen2vl_text2_5_7b_llava_500k_job.yaml
 # llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_chart_code_data_v1_raw_190k.yaml
 # llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_chart_code_data_v2_code_190k.yaml
 # llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_html_chartbench_mix_v3_127k_893.yaml
