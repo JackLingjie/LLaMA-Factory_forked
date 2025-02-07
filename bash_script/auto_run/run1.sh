@@ -49,7 +49,8 @@ set -x
 yaml_files=(
     # "bash_script/stage2_llm_2nodes_1e5_html_chart_stack_data_170k.yaml"
     # "bash_script/dpo_qwen2vl_v1_code_190k_chart_html_origin_95k.yaml"
-    "bash_script/dpo_mix190k_origin_image_7b_32k_score80.yaml"
+    # "bash_script/dpo_mix190k_origin_image_7b_32k_score80.yaml"
+    "bash_script/dpo_mix190k_origin_image_7b_18k_chart_bench_score80.yaml"
 
 )
 
