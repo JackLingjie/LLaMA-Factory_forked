@@ -45,3 +45,5 @@ FORCE_TORCHRUN=1 llamafactory-cli train bash_script/chart_dpo_4o_qwen72b_47k_tes
 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_stack_html_147k_process.yaml
 
 llamafactory-cli train bash_script/qwen2vl_coder_mid_sft_mm_proj_stage2_job_2nodes_1e3_500k_process.yaml
+
+llamafactory-cli train bash_script/dpo_html_test.yaml

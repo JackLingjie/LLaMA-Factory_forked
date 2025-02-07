@@ -1276,7 +1276,7 @@
     }
   },
   "dpo_html_chart_code37_4oimg_89k": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/code/dpo_html_chart_code37_4oimg_89k.json",
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/code/dpo_html_chart_code37_4oimg_89k_fixed.json",
     "ranking": true,
     "formatting": "sharegpt",
     "columns": {
@@ -1286,8 +1286,9 @@
       "images": "images"
     }
   },
+
   "dpo_html_chart_code37_origin_89k": {
-    "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/code/dpo_html_chart_code37_origin_89k.json",
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/code/dpo_html_chart_code37_origin_89k_fixed.json",
     "ranking": true,
     "formatting": "sharegpt",
     "columns": {
