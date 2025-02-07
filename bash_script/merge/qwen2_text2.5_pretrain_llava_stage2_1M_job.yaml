@@ -2,7 +2,7 @@
 
 ### model
 model_name_or_path: /mnt/lingjiejiang/multimodal_code/checkpoints/vlms/Qwenvl2-text2.5-7B-Instruct_merge
-adapter_name_or_path: multimodal_code/exp/saves/qwen2_text2.5_pretrain_llava_stage2_1M_job/sft/full/checkpoint-7660/
+adapter_name_or_path: /mnt/lingjiejiang/multimodal_code/exp/saves/qwen2_text2.5_pretrain_llava_stage2_1M_job/sft/full/checkpoint-7660/
 template: qwen2_vl
 finetuning_type: lora
 trust_remote_code: true
