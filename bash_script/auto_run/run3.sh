@@ -35,8 +35,18 @@ set -x
 # export NCCL_NET=IB
 # FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_qwen2_text2.5_500k_html_chart_code_data_v2_code_190k.yaml
 
+yaml_files=(
+    "bash_script/dpo_qwen2vl_v1_code_190k_html_chart_code37_origin_89k.yaml"
+    # "bash_script/stage2_llm_2nodes_1e5_html_chart_stack_data_170k.yaml"
+    # "bash_script/dpo_qwen2vl_v1_code_190k_chart_html_origin_95k.yaml"
+
+)
+
+YAML_FILE="${yaml_files[0]}"
+
 export NCCL_NET=IB
-FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_html_code_chart_stack_256k.yaml
+FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=0 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train "$YAML_FILE"
+
 
 
 python run_gpu.py

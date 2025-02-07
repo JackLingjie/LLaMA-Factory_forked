@@ -21,8 +21,13 @@
 # llamafactory-cli export bash_script/merge/qwen2_text2.5_pretrain_llava_stage2_1M_job.yaml
 # llamafactory-cli export bash_script/merge/qwen2vl_coder7b_llava_500k_job_3515.yaml
 # llamafactory-cli export bash_script/merge/qwen2vl_text2_5_7b_llava_500k_job.yaml
-llamafactory-cli export bash_script/merge/dpo_v2_code_190k_dpo_mix190k_dpo_code37k-524.yaml
+# llamafactory-cli export bash_script/merge/dpo_v2_code_190k_dpo_mix190k_dpo_code37k-524.yaml
 # llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_chart_code_data_v1_raw_190k.yaml
 # llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_chart_code_data_v2_code_190k.yaml
 # llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_html_chartbench_mix_v3_127k_893.yaml
 # /mnt/lingjiejiang/multimodal_code/sft_checkpoints/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_html_chart_mix_v2_130k_917
+llamafactory-cli export bash_script/merge/dpo_mix190k_html_chart_code37_4oimg_89k.yaml
+llamafactory-cli export bash_script/merge/dpo_mix190k_html_chart_code37_origin_89k.yaml
+llamafactory-cli export bash_script/merge/stage2_qwen2_text2.5_1M_html_chart_code_data_v2_code_190k.yaml
+llamafactory-cli export bash_script/merge/stage2_qwen2_text2.5_500k_html_chart_code_data_v2_code_190k.yaml
+llamafactory-cli export bash_script/merge/stage2_qwencoder2.5_500k_html_chart_code_data_v2_code_190k.yaml
