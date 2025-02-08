@@ -16,7 +16,8 @@ yaml_files=(
     # "bash_script/stage2_llm_2nodes_1e5_html_chart_stack_data_170k.yaml"
     # "bash_script/dpo_qwen2vl_v1_code_190k_chart_html_origin_95k.yaml"
     # "bash_script/qwen72b_html_chart_code_data_v2_code_190k.yaml"
-    "bash_script/qwen72b_html_chartbench_mix_v3_127k.yaml"
+    # "bash_script/qwen72b_html_chartbench_mix_v3_127k.yaml"
+    "bash_script/qwen72b_html_code_chart_stack_256k.yaml"
 )
 
 YAML_FILE="${yaml_files[0]}"
