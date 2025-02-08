@@ -38,7 +38,8 @@ set -x
 # FORCE_TORCHRUN=1 NNODES=2 NODE_RANK=1 MASTER_ADDR=node-2 MASTER_PORT=12335 llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_html_code_chart_stack_256k.yaml
 
 yaml_files=(
-    "bash_script/dpo_qwen2vl_mix_v3_127k_html_code37_origin_64k.yaml"
+    "bash_script/dpo_qwentext25_html_chart_code37_origin_89k_epoch1.yaml"
+    # "bash_script/dpo_qwen2vl_mix_v3_127k_html_code37_origin_64k.yaml"
     # "bash_script/dpo_qwentext25_html_chart_code37_origin_89k.yaml"
     # "bash_script/dpo_qwen2vl_v1_code_190k_html_origin_image_7b_27k.yaml"
     # "bash_script/qwen2vl_html_code_chart_stack_256k.yaml"

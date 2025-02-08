@@ -1,0 +1,14 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /mnt/lingjiejiang/multimodal_code/sft_checkpoints/qwen2vl_html_chartbench_mix_v3_127k_fixed
+adapter_name_or_path: /mnt/lingjiejiang/multimodal_code/exp/saves/dpo_qwen2vl_mix_v3_html_chart_code37_origin_89k/lora/sft/checkpoint-500/
+template: qwen2_vl
+finetuning_type: lora
+trust_remote_code: true
+
+### export
+export_dir: /mnt/lingjiejiang/multimodal_code/sft_checkpoints/dpo_qwen2vl_mix_v3_html_chart_code37_origin_89k-500_fixed
+export_size: 2
+export_device: cpu
+export_legacy_format: false
