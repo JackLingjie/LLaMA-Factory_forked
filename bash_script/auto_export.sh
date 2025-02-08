@@ -55,5 +55,5 @@
 # llamafactory-cli export bash_script/merge/qwen2vl_html_code_chart_stack_256k.yaml
 # llamafactory-cli export bash_script/merge/stage2_qwen2_text2.5_1M_html_code_chart_stack_256k.yaml
 
-llamafactory-cli export bash_script/merge/dpo_qwen2vl_mix_v3_html_chart_code37_origin_89k-500_fixed.yaml
-llamafactory-cli export bash_script/merge/dpo_qwentext25_html_chart_code37_origin_89k-500.yaml
+llamafactory-cli export bash_script/merge/dpo_qwentext25_html_chart_code37_origin_89k_epoch1.yaml
+llamafactory-cli export bash_script/merge/dpo_qwentext25_html_code37_origin_64k.yaml
