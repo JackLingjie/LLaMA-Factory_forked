@@ -21,7 +21,7 @@ yaml_files=(
 YAML_FILE="${yaml_files[0]}"
 
 export NCCL_NET=IB
-FORCE_TORCHRUN=1 NNODES=4 NODE_RANK=3 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train "$YAML_FILE"
+FORCE_TORCHRUN=1 NNODES=4 NODE_RANK=2 MASTER_ADDR=node-0 MASTER_PORT=12335 llamafactory-cli train "$YAML_FILE"
 
 
 
