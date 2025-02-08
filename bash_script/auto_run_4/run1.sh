@@ -22,7 +22,8 @@ yaml_files=(
     # "bash_script/dpo_qwentext25_html_code37_origin_64k_epoch1.yaml"
     # "bash_script/qwen72b_html_chart_code_data_v2_code_190k.yaml"
     # "bash_script/qwen72b_html_chartbench_mix_v3_127k.yaml"
-    "bash_script/qwen72b_html_code_chart_stack_256k.yaml"
+    # "bash_script/qwen72b_html_code_chart_stack_256k.yaml"
+    "bash_script/qwen72b_html_chart_stack_data_193k.yaml"
     
 )
 
