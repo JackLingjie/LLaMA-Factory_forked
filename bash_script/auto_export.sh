@@ -37,8 +37,13 @@
 # llamafactory-cli export bash_script/merge/dpo_mix190k_origin_image_7b_32k_score80.yaml
 # llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_chart_stack_data_170k.yaml
 
-llamafactory-cli export bash_script/merge/dpo_qwen2vl_v1_code_190k_chart_html_origin_95k_1340.yaml
-llamafactory-cli export bash_script/merge/dpo_qwen2vl_v1_code_190k_html_chart_code37_origin_89k_1260.yaml
-llamafactory-cli export bash_script/merge/qwen2vl_html_chartbench_mix_v3_127k.yaml
-llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_code_chart_stack_256k_1811.yaml
-llamafactory-cli export bash_script/merge/dpo_mix190k_origin_image_45k_chart_bench_642.yaml
+# llamafactory-cli export bash_script/merge/dpo_qwen2vl_v1_code_190k_chart_html_origin_95k_1340.yaml
+# llamafactory-cli export bash_script/merge/dpo_qwen2vl_v1_code_190k_html_chart_code37_origin_89k_1260.yaml
+# llamafactory-cli export bash_script/merge/qwen2vl_html_chartbench_mix_v3_127k.yaml
+# llamafactory-cli export bash_script/merge/stage2_llm_2nodes_1e5_html_code_chart_stack_256k_1811.yaml
+# llamafactory-cli export bash_script/merge/dpo_mix190k_origin_image_45k_chart_bench_642.yaml
+
+# llamafactory-cli export bash_script/merge/dpo_qwen2vl_v3_cchart_html_origin_95k.yaml
+# llamafactory-cli export bash_script/merge/dpo_qwen2vl_v3_chart_html_origin_52k.yaml
+# llamafactory-cli export bash_script/merge/dpo_qwen2vl_v3_html_chart_code37_origin_89k.yaml
+llamafactory-cli export bash_script/merge/qwen2vl_html_chartbench_mix_v3_127k_fixed.yaml
