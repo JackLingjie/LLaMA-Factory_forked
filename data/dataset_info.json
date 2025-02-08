@@ -1349,6 +1349,17 @@
     }
   },
 
+  "dpo_html_code37_origin_64k": {
+    "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/code/dpo_html_code37_origin_64k.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected",
+      "images": "images"
+    }
+  },
   "dpo_html_chart_code37_origin_89k": {
     "file_name": "/mnt/lingjiejiang/multimodal_code/data/dpo/code/dpo_html_chart_code37_origin_89k_fixed.json",
     "ranking": true,
