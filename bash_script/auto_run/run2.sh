@@ -54,7 +54,8 @@ yaml_files=(
     # "bash_script/dpo_qwen2vl_mix_v3_127k_html_origin_7b_27k.yaml"
     # "bash_script/dpo_qwen2vl_mix_v3_html_chart_code37_origin_89k.yaml"
     # "bash_script/dpo_qwentext25_html_origin_image_7b_27k.yaml"
-    "bash_script/dpo_mix190k_v2_html_code37_origin_64k.yaml"
+    # "bash_script/dpo_mix190k_v2_html_code37_origin_64k.yaml"
+    "bash_script/dpo_qwentext25_html_code37_origin_64k.yaml"
 
 )
 
