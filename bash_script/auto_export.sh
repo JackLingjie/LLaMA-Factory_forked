@@ -62,5 +62,10 @@
 # llamafactory-cli export bash_script/merge/dpo_qwen2vl_mix_v3_127k_fixed_html_code37_origin_64k_epoch1.yaml
 # llamafactory-cli export bash_script/merge/dpo_qwentext25_190k_v2_html_code37_origin_64k.yaml
 
-llamafactory-cli export bash_script/merge/qwen72b_html_chart_code_data_v2_code_190k_1343.yaml
-llamafactory-cli export bash_script/merge/qwen72b_html_chartbench_mix_v3_127k.yaml
+# llamafactory-cli export bash_script/merge/qwen72b_html_chart_code_data_v2_code_190k_1343.yaml
+# llamafactory-cli export bash_script/merge/qwen72b_html_chartbench_mix_v3_127k.yaml
+
+# llamafactory-cli export bash_script/merge/stage2_qwen2_text2.5_1M_html_chart_stack_data_193k-1362.yaml
+# llamafactory-cli export bash_script/merge/qwen2vl_html_chart_stack_data_193k-1362.yaml
+
+llamafactory-cli export bash_script/merge/qwen72b_html_chart_stack_data_193k-1362.yaml
