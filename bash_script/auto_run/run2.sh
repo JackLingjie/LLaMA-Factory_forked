@@ -61,7 +61,8 @@ yaml_files=(
     # "bash_script/dpo_qwentext25_html_code37_origin_64k_epoch1.yaml"
     # "bash_script/qwen72b_html_chart_code_data_v2_code_190k.yaml"
     # "bash_script/qwen2vl_html_chart_stack_data_193k.yaml"
-    "bash_script/dpo_qwentext25_html_7b_27k.yaml"
+    # "bash_script/dpo_qwentext25_html_7b_27k.yaml"
+    "bash_script/dpo_coder_mix190k_chart_html_origin_52k.yaml"
 
 )
 
