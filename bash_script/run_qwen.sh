@@ -49,3 +49,5 @@ llamafactory-cli train bash_script/qwen2vl_coder_mid_sft_mm_proj_stage2_job_2nod
 llamafactory-cli train bash_script/dpo_html_test.yaml
 
 llamafactory-cli train bash_script/qwen2_5vl_web2code_job_process.yaml
+
+llamafactory-cli train bash_script/qwen2_5vl_web2code_job_test.yaml
