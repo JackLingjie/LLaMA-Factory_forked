@@ -1,4 +1,4 @@
-transformers==44.49.0.dev0
+# transformers==44.49.0.dev0
 datasets>=2.16.0,<=3.2.0
 accelerate>=0.34.0,<=1.2.1
 peft>=0.11.1,<=0.12.0
