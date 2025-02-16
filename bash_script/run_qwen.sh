@@ -47,3 +47,5 @@ llamafactory-cli train bash_script/stage2_llm_2nodes_1e5_web2code_bsz128_1e5_sta
 llamafactory-cli train bash_script/qwen2vl_coder_mid_sft_mm_proj_stage2_job_2nodes_1e3_500k_process.yaml
 
 llamafactory-cli train bash_script/dpo_html_test.yaml
+
+llamafactory-cli train bash_script/qwen2_5vl_web2code_job_process.yaml
