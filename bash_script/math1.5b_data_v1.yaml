@@ -10,7 +10,7 @@ deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, 
 flash_attn: fa2
 
 ### dataset
-dataset: open_thought_bespoke_openr1_306k_24klength
+dataset: open_thought_bespoke_openr1_294k_16klength
 template: qwen
 cutoff_len: 16384
 max_samples: 5000000
@@ -18,7 +18,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: /mnt/lingjiejiang/reason/exp/qwen2.5_math1.5b/full
+output_dir: /mnt/lingjiejiang/reason/exp/qwen2.5_math1.5b/full_16k_promptv1
 logging_steps: 10
 save_steps: 500
 plot_loss: true
