@@ -12,7 +12,7 @@ flash_attn: fa2
 ### dataset
 dataset: open_thought_bespoke_openr1_306k_24klength
 template: qwen
-cutoff_len: 2048
+cutoff_len: 24576
 max_samples: 5000000
 overwrite_cache: true
 preprocessing_num_workers: 16
