@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 节点列表文件路径
-NODES_FILE="bash_script/distrubute_run/node_config/nodes.txt"  # 节点列表文件
+NODES_FILE="bash_script/distribute_run/node_config/nodes.txt"  # 节点列表文件
 
 # 确保节点列表文件存在
 if [ ! -f "$NODES_FILE" ]; then
