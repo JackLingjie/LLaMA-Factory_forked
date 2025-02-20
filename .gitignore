@@ -176,3 +176,6 @@ output/
 wandb/
 swanlog/
 generated_predictions.jsonl
+
+data_process
+code_data_process
