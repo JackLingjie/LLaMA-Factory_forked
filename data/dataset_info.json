@@ -410,6 +410,14 @@
       "assistant_tag": "assistant"
     }
   },
+  "open_thought_bespoke_openr1_306k_24klength": {
+    "file_name": "/mnt/lingjiejiang/reason/data/sft/open_thought_bespoke_openr1_sharegptformat_306k_24klength.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "system": "system"
+    }
+  },
   "pokemon_cap": {
     "hf_hub_url": "llamafactory/pokemon-gpt4o-captions",
     "formatting": "sharegpt",

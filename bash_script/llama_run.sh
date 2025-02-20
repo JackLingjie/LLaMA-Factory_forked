@@ -1,0 +1,1 @@
+llamafactory-cli train bash_script/llama3_full_sft_test.yaml
