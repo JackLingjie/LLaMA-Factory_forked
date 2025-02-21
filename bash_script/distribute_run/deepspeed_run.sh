@@ -3,7 +3,7 @@
 export MASTER_ADDR=$MASTER_ADDR  
 export MASTER_PORT=$MASTER_PORT 
 
-deepspeed --nproc_per_node 8 --num_nodes 4 --hostfile --node_rank $NODE_RANK --master_addr $MASTER_ADDR bash_script/distribute_run/node_config/nodes.txt \
+deepspeed --num_gpus 8 --num_nodes 4 --hostfile bash_script/distribute_run/node_config/hostfile \
     src/train.py \
     --model_name_or_path /mnt/lingjiejiang/reason/checkpoints/Qwen2.5-Math-1.5B \
     --stage sft \
