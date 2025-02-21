@@ -18,7 +18,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: /mnt/lingjiejiang/reason/exp/qwen2.5_math1.5b/full_16k_promptv1
+output_dir: /mnt/lingjiejiang/reason/exp/qwen2.5_math1.5b/full_16k_promptv1_4nodes
 logging_steps: 10
 save_steps: 500
 plot_loss: true

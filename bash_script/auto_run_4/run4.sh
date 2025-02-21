@@ -3,7 +3,7 @@ set -x
 
 
 yaml_files=(
-    "bash_script/math1.5b_data_v1_lora.yaml"
+    "bash_script/math1.5b_data_v1.yaml"
     
 )
 
