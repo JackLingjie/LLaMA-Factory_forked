@@ -13,7 +13,7 @@ finetuning_type: full
 
 ### dataset
 dataset: alpaca_en_demo
-template: qwen25
+template: qwen
 cutoff_len: 2048
 max_samples: 100
 overwrite_cache: true
