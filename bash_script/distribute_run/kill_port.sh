@@ -14,7 +14,7 @@ if ! grep -q "node-" "$NODES_FILE"; then
     echo "Error: $NODES_FILE does not contain valid node names!"
     exit 1
 fi
-
+# sudo kill -9 $(sudo lsof -t -i :12335)
 # 使用 pdsh 在所有节点上安装 lsof 并终止指定端口的进程
 pdsh -R ssh -w ^$NODES_FILE bash -c "'
 set -e  # 如果有任何命令失败，退出脚本
