@@ -6,19 +6,19 @@ trust_remote_code: true
 stage: sft
 do_train: true
 finetuning_type: full
-deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
-flash_attn: fa2
+# deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+# flash_attn: fa2
 
 ### dataset
-dataset: open_thought_bespoke_openr1_294k_16klength
-template: qwen
-cutoff_len: 16384
-max_samples: 5000000
+dataset: alpaca_en_demo
+template: qwen25
+cutoff_len: 2048
+max_samples: 100
 overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: /mnt/lingjiejiang/reason/exp/qwen2.5_math1.5b/full_16k_promptv1_debug
+output_dir: saves/exp/qwen2.5_math1.5b/full
 logging_steps: 10
 save_steps: 500
 plot_loss: true
@@ -26,7 +26,7 @@ overwrite_output_dir: true
 
 ### train
 per_device_train_batch_size: 1
-gradient_accumulation_steps: 8
+gradient_accumulation_steps: 4
 learning_rate: 1.0e-5
 num_train_epochs: 3.0
 lr_scheduler_type: cosine
@@ -34,8 +34,8 @@ warmup_ratio: 0.1
 bf16: true
 ddp_timeout: 180000000
 
-report_to: wandb
-run_name: qwenmath_1.5_sft # optional
+# report_to: wandb
+# run_name: qwenmath_1.5_sft # optional
 
 ## eval
 val_size: 0.1
