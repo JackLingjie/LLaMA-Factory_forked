@@ -87,6 +87,8 @@ STAGES_USE_PAIR_DATA = {"rm", "dpo"}
 
 SUPPORTED_CLASS_FOR_S2ATTN = {"llama"}
 
+SWANLAB_CONFIG = "swanlab_public_config.json"
+
 VIDEO_PLACEHOLDER = os.environ.get("VIDEO_PLACEHOLDER", "<video>")
 
 V_HEAD_WEIGHTS_NAME = "value_head.bin"
@@ -1317,6 +1319,21 @@ register_model_group(
 
 register_model_group(
     models={
+        "Moonlight-16B-A3B": {
+            DownloadSource.DEFAULT: "moonshotai/Moonlight-16B-A3B",
+            DownloadSource.MODELSCOPE: "moonshotai/Moonlight-16B-A3B",
+        },
+        "Moonlight-16B-A3B-Instruct": {
+            DownloadSource.DEFAULT: "moonshotai/Moonlight-16B-A3B-Instruct",
+            DownloadSource.MODELSCOPE: "moonshotai/Moonlight-16B-A3B-Instruct",
+        },
+    },
+    template="moonlight",
+)
+
+
+register_model_group(
+    models={
         "OLMo-1B": {
             DownloadSource.DEFAULT: "allenai/OLMo-1B-hf",
         },
@@ -1469,6 +1486,30 @@ register_model_group(
         "PaliGemma2-28B-pt-896": {
             DownloadSource.DEFAULT: "google/paligemma2-28b-pt-896",
             DownloadSource.MODELSCOPE: "AI-ModelScope/paligemma2-28b-pt-896",
+        },
+        "PaliGemma2-3B-mix-224": {
+            DownloadSource.DEFAULT: "google/paligemma2-3b-mix-224",
+            DownloadSource.MODELSCOPE: "mlx-community/paligemma2-3b-mix-224-bf16",
+        },
+        "PaliGemma2-3B-mix-448": {
+            DownloadSource.DEFAULT: "google/paligemma2-3b-mix-448",
+            DownloadSource.MODELSCOPE: "mlx-community/paligemma2-3b-mix-448-bf16",
+        },
+        "PaliGemma2-10B-mix-224": {
+            DownloadSource.DEFAULT: "google/paligemma2-10b-mix-224",
+            DownloadSource.MODELSCOPE: "mlx-community/paligemma2-10b-mix-224-bf16",
+        },
+        "PaliGemma2-10B-mix-448": {
+            DownloadSource.DEFAULT: "google/paligemma2-10b-mix-448",
+            DownloadSource.MODELSCOPE: "mlx-community/paligemma2-10b-mix-448-bf16",
+        },
+        "PaliGemma2-28B-mix-224": {
+            DownloadSource.DEFAULT: "google/paligemma2-28b-mix-224",
+            DownloadSource.MODELSCOPE: "mlx-community/paligemma2-28b-mix-224-bf16",
+        },
+        "PaliGemma2-28B-mix-448": {
+            DownloadSource.DEFAULT: "google/paligemma2-28b-mix-448",
+            DownloadSource.MODELSCOPE: "mlx-community/paligemma2-28b-mix-448-bf16",
         },
     },
     template="paligemma",
@@ -2233,6 +2274,18 @@ register_model_group(
         "Qwen2.5-VL-72B-Instruct": {
             DownloadSource.DEFAULT: "Qwen/Qwen2.5-VL-72B-Instruct",
             DownloadSource.MODELSCOPE: "Qwen/Qwen2.5-VL-72B-Instruct",
+        },
+        "Qwen2.5-VL-3B-Instruct-AWQ": {
+            DownloadSource.DEFAULT: "Qwen/Qwen2.5-VL-3B-Instruct-AWQ",
+            DownloadSource.MODELSCOPE: "Qwen/Qwen2.5-VL-3B-Instruct-AWQ",
+        },
+        "Qwen2.5-VL-7B-Instruct-AWQ": {
+            DownloadSource.DEFAULT: "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
+            DownloadSource.MODELSCOPE: "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
+        },
+        "Qwen2.5-VL-72B-Instruct-AWQ": {
+            DownloadSource.DEFAULT: "Qwen/Qwen2.5-VL-72B-Instruct-AWQ",
+            DownloadSource.MODELSCOPE: "Qwen/Qwen2.5-VL-72B-Instruct-AWQ",
         },
     },
     template="qwen2_vl",
