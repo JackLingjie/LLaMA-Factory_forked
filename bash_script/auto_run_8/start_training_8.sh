@@ -57,7 +57,7 @@ YAML_FILE="${yaml_files[0]}"
 
 
 # 训练任务所在目录
-WORK_DIR="/tmp/Qwen-sft"
+WORK_DIR="/tmp/LLaMA-Factory_forked"
 
 # 存储所有进程的 PID
 PIDS=()
