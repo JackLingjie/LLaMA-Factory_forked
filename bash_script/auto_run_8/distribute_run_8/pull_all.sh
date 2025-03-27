@@ -4,7 +4,7 @@
 NODES_FILE="bash_script/auto_run_8/distribute_run_8/node_config/nodes.txt"
 
 script=$(cat << 'EOF'
-cd LLaMA-Factory_forked
+cd /tmp/LLaMA-Factory_forked
 git pull
 EOF
 )
