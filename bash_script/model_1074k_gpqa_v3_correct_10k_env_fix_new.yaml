@@ -1,0 +1,47 @@
+### model
+model_name_or_path: /mnt/lingjiejiang/reason/exp/qwen2.5_math1.5b/add_synthetic_openr1_openthought_aime_rej_kodcode_taco_aops_cf_1075k/checkpoint-25203/
+trust_remote_code: true
+
+### method
+enable_liger_kernel: true
+use_unsloth_gc: true
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: examples/deepspeed/ds_z0_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+flash_attn: fa2
+
+### dataset
+dataset: gpqa_v3_correct_10k
+template: qwen_no_sys
+cutoff_len: 24576
+max_samples: 2000000
+# max_samples: 10000
+overwrite_cache: true
+preprocessing_num_workers: 48
+
+### output
+output_dir: /mnt/lingjiejiang/reason/exp/qwen2.5_math1.5b/model_1074k_gpqa_v3_correct_10k_env_fix_new
+logging_steps: 10
+save_steps: 500
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 2
+learning_rate: 1.0e-4
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+report_to: tensorboard
+# run_name: tensorboard # optional
+
+## eval
+# val_size: 0.1
+# per_device_eval_batch_size: 1
+# eval_strategy: steps
+# eval_steps: 500
