@@ -8,7 +8,7 @@ NODES_FILE="bash_script/auto_run_8/distribute_run_8/node_config/nodes.txt"
 script=$(cat << 'EOF'
 cd /tmp
 export PATH=$PATH:/home/aiscuser/.local/bin
-git@github.com:JackLingjie/LLaMA-Factory_forked.git
+git clone git@github.com:JackLingjie/LLaMA-Factory_forked.git
 
 cd LLaMA-Factory_forked
 git checkout -b verify origin/verify
