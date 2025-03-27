@@ -1093,6 +1093,21 @@ register_template(
     mm_plugin=get_mm_plugin(name="llava_next", image_token="<image>"),
 )
 
+# copied from chatml template
+register_template(
+    name="qwen_no_sys",
+    format_user=StringFormatter(slots=["<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n"]),
+    format_assistant=StringFormatter(slots=["{{content}}<|im_end|>\n"]),
+    format_system=StringFormatter(slots=["{{content}}"]),
+    format_function=FunctionFormatter(slots=["{{content}}<|im_end|>\n"], tool_format="qwen"),
+    format_observation=StringFormatter(
+        slots=["<|im_start|>user\n<tool_response>\n{{content}}\n</tool_response><|im_end|>\n<|im_start|>assistant\n"]
+    ),
+    format_tools=ToolFormatter(tool_format="qwen"),
+    default_system="",
+    stop_words=["<|im_end|>"],
+)
+
 
 # copied from chatml template
 register_template(
